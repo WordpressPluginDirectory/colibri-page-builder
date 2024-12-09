@@ -3635,7 +3635,7 @@ hr {
     padding-right: calc(2 * 1rem); } }
 
 .wp-block-latest-comments .wp-block-latest-comments__comment-meta {
-  font-weight: bold; }
+  font-weight: normal; }
   .wp-block-latest-comments .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-date {
     font-weight: normal; }
 
@@ -7955,80 +7955,80 @@ ul.colibri-menu.bordered-active-item > li {
   ul.colibri-menu.bordered-active-item > li::after {
     bottom: 0.5em; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item)::after {
   width: 100%;
   content: "";
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::before {
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item)::before {
   margin-top: -10px; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item)::after {
   margin-bottom: -10px; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover::after {
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item):hover::after {
   opacity: 1;
   margin-top: 0;
   margin-bottom: 0; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item)::after {
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::before {
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item)::before {
   margin-top: 10px; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item)::after {
   margin-bottom: 10px; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover::after {
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item):hover::after {
   opacity: 1;
   margin-bottom: 0;
   margin-top: 0; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item)::after {
   opacity: 0;
   width: 0;
   content: '';
   -webkit-transition: all 0.3s;
   transition: all 0.3s; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::before {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item)::before {
   left: 0em;
   right: auto; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item)::after {
   right: 0em;
   left: auto; }
 
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover::after {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item):hover::after {
   opacity: 1;
   width: 100%; }
 
-ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item)::after {
   opacity: 0;
   -webkit-transition: none;
   transition: none; }
 
-ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover::after {
+ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item):hover::after {
   opacity: 1; }
 
-ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(.current-menu-item)::after {
   left: 0 !important;
   right: auto !important; }
 
-ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(.current-menu-item)::after {
   right: 0 !important;
   left: auto !important; }
 
-ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item)::after {
   left: 50% !important;
   right: auto !important; }
 
-ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover::after {
+ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item):hover::after {
   left: 0 !important;
   right: auto !important; }
 
@@ -10595,6 +10595,11 @@ body.quill-editor-active .h-ui-for-hop-heading .h-component-menu {
   margin-left: auto;
   margin-right: auto; }
 
+*:has(> .alignleft, > .alignright, > .aligncenter)::after {
+  content: "";
+  display: table;
+  clear: both; }
+
 #wpadminbar {
   text-align: initial; }
   #wpadminbar:before,
@@ -11122,6 +11127,10 @@ ul.ope-language-switcher.after-menu span {
       padding: 0;
       left: 0;
       top: 0; }
+      .woocommerce-page .content .h-section input[type=checkbox]:not(#extra-1),
+      .woocommerce-page .content .h-section input[type=radio]:not(#extra-1), .woocommerce .content .h-section input[type=checkbox]:not(#extra-1),
+      .woocommerce .content .h-section input[type=radio]:not(#extra-1) {
+        display: inline; }
     .woocommerce-page .content .h-section .wc-block-components-text-input input, .woocommerce .content .h-section .wc-block-components-text-input input {
       border: 1px solid #aaa; }
     .woocommerce-page .content .h-section .wc-block-components-text-input input + label, .woocommerce .content .h-section .wc-block-components-text-input input + label {
@@ -12283,7 +12292,6 @@ body.woocommerce ul.products {
   padding-top: 15px; }
 
 #colibri .comment-respond .comment-reply-title {
-  font-family: Open Sans;
   font-weight: 600;
   font-size: 1.25em;
   color: black; }
@@ -22190,7 +22198,7 @@ hr {
 }
 }
 .wp-block-latest-comments .wp-block-latest-comments__comment-meta {
-  font-weight: bold;
+  font-weight: normal;
 }
 .wp-block-latest-comments .wp-block-latest-comments__comment-meta .wp-block-latest-comments__comment-date {
     font-weight: normal;
@@ -27228,80 +27236,80 @@ ul.colibri-menu.bordered-active-item > li::before {
 ul.colibri-menu.bordered-active-item > li::after {
     bottom: 0.5em;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item)::after {
   width: 100%;
   content: "";
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::before {
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item)::before {
   margin-top: -10px;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item)::after {
   margin-bottom: -10px;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(current-menu-item):hover::after {
+ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-in > li:not(.current_page_item):not(.current-menu-item):hover::after {
   opacity: 1;
   margin-top: 0;
   margin-bottom: 0;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item)::after {
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::before {
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item)::before {
   margin-top: 10px;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item)::after {
   margin-bottom: 10px;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(current-menu-item):hover::after {
+ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-out > li:not(.current_page_item):not(.current-menu-item):hover::after {
   opacity: 1;
   margin-bottom: 0;
   margin-top: 0;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item)::after {
   opacity: 0;
   width: 0;
   content: '';
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::before {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item)::before {
   left: 0em;
   right: auto;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item)::after {
   right: 0em;
   left: auto;
 }
-ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(current-menu-item):hover::after {
+ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-borders-grow > li:not(.current_page_item):not(.current-menu-item):hover::after {
   opacity: 1;
   width: 100%;
 }
-ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item)::after {
   opacity: 0;
   -webkit-transition: none;
   transition: none;
 }
-ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(current-menu-item):hover::after {
+ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.effect-none > li:not(.current_page_item):not(.current-menu-item):hover::after {
   opacity: 1;
 }
-ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-left > li:not(.current_page_item):not(.current-menu-item)::after {
   left: 0 !important;
   right: auto !important;
 }
-ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-right > li:not(.current_page_item):not(.current-menu-item)::after {
   right: 0 !important;
   left: auto !important;
 }
-ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item)::after {
+ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item)::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item)::after {
   left: 50% !important;
   right: auto !important;
 }
-ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(current-menu-item):hover::after {
+ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item).hover::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item).hover::after, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item):hover::before, ul.colibri-menu.bordered-active-item.grow-from-center > li:not(.current_page_item):not(.current-menu-item):hover::after {
   left: 0 !important;
   right: auto !important;
 }
@@ -30161,6 +30169,11 @@ body.quill-editor-active .h-ui-for-hop-heading .h-component-menu {
   margin-left: auto;
   margin-right: auto;
 }
+*:has(> .alignleft, > .alignright, > .aligncenter)::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 #wpadminbar {
   text-align: initial;
 }
@@ -30764,6 +30777,11 @@ ul.ope-language-switcher.after-menu span {
       padding: 0;
       left: 0;
       top: 0;
+}
+.woocommerce-page .content .h-section input[type=checkbox]:not(#extra-1),
+      .woocommerce-page .content .h-section input[type=radio]:not(#extra-1), .woocommerce .content .h-section input[type=checkbox]:not(#extra-1),
+      .woocommerce .content .h-section input[type=radio]:not(#extra-1) {
+        display: inline;
 }
 .woocommerce-page .content .h-section .wc-block-components-text-input input, .woocommerce .content .h-section .wc-block-components-text-input input {
       border: 1px solid #aaa;
@@ -32082,7 +32100,6 @@ body.woocommerce ul.products.columns-6 li.product {
   padding-top: 15px;
 }
 #colibri .comment-respond .comment-reply-title {
-  font-family: Open Sans;
   font-weight: 600;
   font-size: 1.25em;
   color: black;
